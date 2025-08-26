@@ -1,14 +1,14 @@
 # IoT-Based-Gas-Level-Monitoring-System
-IoT Gas Level & Leakage Monitor using Blynk 🚀
-An IoT-based solution to monitor LPG cylinder levels in real-time, detect gas leaks, and receive instant alerts on your smartphone using the Blynk IoT platform.
+IoT Gas Level & Leakage Monitor using Thingspeak 🚀
+An IoT-based solution to monitor LPG cylinder levels in real-time, detect gas leaks, and receive instant alerts on your smartphone using Thingspeak Platform.
 
 📝 Overview
-This project solves two common household problems: unexpectedly running out of cooking gas and the potential danger of gas leaks. By using an ultrasonic sensor to measure the gas level and an MQ-2 sensor for leak detection, the system provides real-time data directly to a custom dashboard on the Blynk app.
+This project solves two common household problems: unexpectedly running out of cooking gas and the potential danger of gas leaks. By using an ultrasonic sensor to measure the gas level and an MQ-2 sensor for leak detection, the system provides real-time data directly to a custom dashboard on the Thingspeak.
 
-The raspberry pico w microcontroller acts as the brain, processing sensor data and using its built-in Wi-Fi to communicate with the Blynk Cloud. This ensures you are always informed, whether you're at home or away.
+The raspberry pico w microcontroller acts as the brain, processing sensor data and using its built-in Wi-Fi to communicate with the Thingspeak. This ensures you are always informed, whether you're at home or away.
 
 ✨ Key Features
-📊 Real-Time Level Monitoring: View the current gas percentage on a gauge in the Blynk app.
+📊 Real-Time Level Monitoring: View the current gas percentage on a gauge in the Thingspeak.
 
 ⚠️ Low-Level Alerts: Receive an instant push notification when the gas level drops below a preset threshold (e.g., 20%).
 
@@ -19,7 +19,7 @@ The raspberry pico w microcontroller acts as the brain, processing sensor data a
 ⚙️ Simple Setup: Built with common, low-cost hardware and easy-to-configure software.
 
 🛠️ Hardware & Software
-Hardware Required
+Hardware Required :-
 Microcontroller: raspberry pico w
 Here’s a list of the Raspberry Pi Pico W main specs:
 
@@ -38,9 +38,11 @@ Connectivity: Jumper Wires, Breadboard
 
 Power: Micro-USB Cable
 
-Software Required
+
+Software Required :-
+
 Thonny IDE: To program the raspberry pico w.
 
-Blynk App: For the user interface and notifications (available on iOS and Android).
+ThingSpeak Account (Free tier is sufficient)
 
-Libraries: Blynk Library for Arduino.
+Libraries: necessary libraries for the sensors.
